@@ -1,20 +1,11 @@
 @import 'header';
 @import 'menu';
-
-html {
-  box-sizing: border-box;
-}
-
-*, *::before, *::after {
-  box-sizing: inherit;
-}
-
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background-color: #fff;
-  color: #000;
-}
-
-
-
+@import 'icon';
+@import 'top-bar';
+@import 'variable';
+@import 'base';
+@import 'museum-hours';
+@import 'exhibitions';
+@import 'explore';
+@import 'contact';
+@import 'footer';
