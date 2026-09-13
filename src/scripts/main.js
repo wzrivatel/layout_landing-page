@@ -42,6 +42,12 @@ document.addEventListener('DOMContentLoaded', () => {
     link.addEventListener('click', closeMenu);
   });
 
+  const menuLogoLink = document.querySelector('#menu .top-bar a');
+
+  if (menuLogoLink) {
+    menuLogoLink.addEventListener('click', closeMenu);
+  }
+
   const phoneToggle = document.getElementById('phone-toggle');
   const phonePopupContent = document.getElementById('phone-popup-content');
 

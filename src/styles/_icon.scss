@@ -15,17 +15,24 @@
   @media (min-width: $bp-tablet) {
     width: 32px;
     height: 32px;
+    transition: transform 0.5s;
   }
 
   &--phone {
     background-image: url('../icons/icon-phone-call.png');
+
+    &:hover {
+      transform: scale(1.2);
+    }
   }
 
   &--burger {
     background-image: url('../icons/icon-burger-menu.png');
+    transition: transform 0.2s ease;
 
     &:hover {
       background-image: url('../icons/icon-burger-menu-pressed.png');
+      transform: scale(1.2);
     }
   }
 
