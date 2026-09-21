@@ -69,4 +69,13 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });
   }
+
+  const contactForm = document.querySelector('.contact__form');
+
+  if (contactForm) {
+    contactForm.addEventListener('submit', (e) => {
+      e.preventDefault();
+      contactForm.reset();
+    });
+  }
 });

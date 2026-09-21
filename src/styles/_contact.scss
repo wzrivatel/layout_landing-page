@@ -122,6 +122,14 @@
       outline: none;
       border-color: $color-main-dark;
     }
+
+    &:-webkit-autofill,
+    &:-webkit-autofill:hover,
+    &:-webkit-autofill:focus {
+      -webkit-box-shadow: 0 0 0 1000px #f8f8fa inset;
+      -webkit-text-fill-color: $color-main-dark;
+      transition: background-color 5000s ease-in-out 0s;
+    }
   }
 
   &__textarea {
@@ -136,6 +144,7 @@
     color: #7e7e83;
     padding: 14px 16px;
     border: none;
+    resize: none;
     transition: border-color 0.2s ease;
 
     &::placeholder {
@@ -149,6 +158,14 @@
     &:focus {
       outline: none;
       border-color: $color-main-dark;
+    }
+
+    &:-webkit-autofill,
+    &:-webkit-autofill:hover,
+    &:-webkit-autofill:focus {
+      -webkit-box-shadow: 0 0 0 1000px #f8f8fa inset;
+      -webkit-text-fill-color: $color-main-dark;
+      transition: background-color 5000s ease-in-out 0s;
     }
   }
 
