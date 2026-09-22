@@ -278,20 +278,25 @@
           <h2 class="contact__title">Contact us</h2>
 
           <div class="contact__content">
-
             <div class="contact__block">
               <h3 class="contact__block-title">The Met Fifth Avenue</h3>
 
               <div class="contact__info">
                 <p class="contact__info-phone">Phone</p>
-                <p class="contact__info-number">+1 212-535-7710</p>
+                <a href="tel:+12125357710" class="contact__info-number">+1 212-535-7710</a>
+              </div>
 
-                <div class="contact__info">
-                  <p class="contact__info-address">Address</p>
-                  <p class="contact__info-text">1000 Fifth Avenue<br>
-                    New York, NY 10028
-                  </p>
-                </div>
+              <div class="contact__info">
+                <p class="contact__info-address">Address</p>
+                <a
+                  href="https://maps.google.com/?q=1000+Fifth+Avenue+New+York+NY+10028"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="contact__info-text"
+                >
+                  1000 Fifth Avenue<br>
+                  New York, NY 10028
+                </a>
               </div>
             </div>
 
@@ -300,39 +305,52 @@
 
               <div class="contact__info">
                 <p class="contact__info-phone">Phone</p>
-                <p class="contact__info-number">+1 212-923-3700</p>
+                <a href="tel:+12129233700" class="contact__info-number">+1 212-923-3700</a>
+              </div>
 
-                <div class="contact__info">
-                  <p class="contact__info-address">Address</p>
-                  <p class="contact__info-text">99 Margaret Corbin Drive<br>
-                    Fort Tryon Park<br>
-                    New York, NY 10040
-                  </p>
-                </div>
+              <div class="contact__info">
+                <p class="contact__info-address">Address</p>
+                <a
+                  href="https://maps.google.com/?q=99+Margaret+Corbin+Drive+Fort+Tryon+Park+New+York+NY+10040"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="contact__info-text"
+                >
+                  99 Margaret Corbin Drive<br>
+                  Fort Tryon Park<br>
+                  New York, NY 10040
+                </a>
               </div>
             </div>
+
             <form class="contact__form">
               <input
-              type="text"
-              name="name"
-              placeholder="Name"
-              class="contact__input">
+                type="text"
+                name="name"
+                placeholder="Name"
+                class="contact__input"
+                required
+              >
 
               <input
-              type="email"
-              name="email"
-              placeholder="Email"
-              class="contact__input">
+                type="email"
+                name="email"
+                placeholder="Email"
+                class="contact__input"
+                required
+              >
 
               <textarea
-              name="message"
-              placeholder="Message"
-              class="contact__textarea">
-              </textarea>
+                name="message"
+                placeholder="Message"
+                class="contact__textarea"
+                required
+              ></textarea>
 
               <button
-              type="submit"
-              class="contact__button">Send</button>
+                type="submit"
+                class="contact__button"
+              >Send</button>
             </form>
           </div>
         </div>

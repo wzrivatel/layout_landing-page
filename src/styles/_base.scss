@@ -54,9 +54,8 @@ p {
 .exhibitions__card-image img,
 .explore__card-image img {
   transition: transform 0.3s ease;
-}
 
-.exhibitions__card:hover .exhibitions__card-image img,
-.explore__card:hover .explore__card-image img {
-  transform: scale(1.05);
+  &:hover {
+    transform: scale(1.05);
+  }
 }

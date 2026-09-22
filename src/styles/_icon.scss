@@ -19,7 +19,7 @@
   }
 
   &--phone {
-    background-image: url('../icons/icon-phone-call.png');
+    background-image: url('../icons/icon-phone-call.svg');
 
     &:hover {
       transform: scale(1.2);
@@ -27,11 +27,11 @@
   }
 
   &--burger {
-    background-image: url('../icons/icon-burger-menu.png');
+    background-image: url('../icons/icon-burger-menu.svg');
     transition: transform 0.2s ease;
 
     &:hover {
-      background-image: url('../icons/icon-burger-menu-pressed.png');
+      background-image: url('../icons/icon-burger-menu-pressed.svg');
       transform: scale(1.2);
     }
   }
